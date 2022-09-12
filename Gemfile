@@ -34,7 +34,7 @@ gem "jbuilder"
 # gem "kredis"
 
 group :test do
-  gem 'rspec', '~> 3.11'
+  gem 'rspec-rails', '~> 5.1', '>= 5.1.2'
 end
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
