@@ -4,7 +4,7 @@ class CreateDummy2s < ActiveRecord::Migration[7.0]
       t.string :name
       t.integer :age
       t.datetime :born_at
-
+      t.string  :email, null: false, unique: true 
       t.timestamps
     end
   end
